@@ -1,6 +1,6 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
-const router = require('../routes');
+const router = require('../controllers');
 const User = require('./User');
 
 // Create Post Model
